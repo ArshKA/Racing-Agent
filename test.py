@@ -19,7 +19,7 @@ def create_gif(frames, filename, fps=20, loop=0):
   # Save the GIF.
   imageio.mimsave(filename, pil_images, duration=len(pil_images)/60, loop=loop)
 
-with open('1DWeights.json', 'r') as f:
+with open('pretrained_weights.json', 'r') as f:
     weights = json.load(f)
 
 weights = [[np.array(x[0]), x[1]] for x in weights]
