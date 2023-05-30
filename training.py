@@ -22,8 +22,7 @@ for i in range(NUM_AGENTS):
                                [np.random.random((8, 8)), np.random.random()],
                                [np.random.random((3, 8)), np.random.random()]]))
 
-# create a vectorized environment with NUM_AGENTS copies of LunarLander-v2
-# envs = gym.vector.make("LunarLander-v2", num_envs=NUM_AGENTS)
+
 
 last_obs = deque(maxlen=3)
 
@@ -61,7 +60,7 @@ for generation in range(TOTAL_GENERATIONS):
 
     # save the weights of the best agent
     if (generation+1) % 10 == 0:
-        with open('1DWeights.json', 'w') as f:
+        with open('latest_weights.json', 'w') as f:
             print("Saving weights")
             json.dump([[x[0].tolist(), x[1]] for x in all_agents[0].weights], f)
 
