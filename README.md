@@ -9,7 +9,7 @@ Compressing the image observation into a 1D vector
 - Save every nth image
   ### Image Procesing
   - Convert to grayscale
-  - Remove gridding patterns
+  - Remove grid patterns (backfired)
   <br>
 
   | Original Image | Processed Image |
