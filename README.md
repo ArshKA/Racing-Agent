@@ -31,7 +31,7 @@ Compressing the image observation into a 1D vector
   | ![Slow Stacked](media/slow_stacked.png) <br>Thin outline indicates little difference <br> between frames| ![Fast Stacked](media/fast_stacked.png) <br>Wide outline indicates larger difference, <br> revealing  car's speed is greater|
 
 ## 2. Model Architecture
-- Compresses 96x96x3 image input into 32 values
+- Compresses 96x96x3 image input into vector of 32 values
 - 99.8843% reduction
 ### Encoder
 ![Encoder](media/.png)
