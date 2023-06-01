@@ -33,20 +33,40 @@ Compressing the image observation into a 1D vector
 ## 2. Model Architecture
 - Compresses 96x96x3 image input into 32 values
 - 99.8843% reduction
-  Diagram
+### Encoder
+![Encoder](media/.png)
+
+### Decoder
+![Decoder](media/.png)
+
   
 ## 3. Training
 - On Colab Tesla T4
-Loss Diagram
+<br>
+
+![Loss Graph](media/loss_chart.png)
 
 # Evolutionary Algorithm
 Producing the best agent through genetic selection
 
+## Agent Model
+  - Impemented in vanilla NumPy for speed and flexibility
+  - Can use pyTorch for larger models
+
+![Agent Model](media/.png)
+
+
+
 ## Reporoduction values
 
-## Model architecture
 
-## Reward Graph
+## Training
+![Max Reward Graph](media/reward_chart.png)
+(Max Reward)
+
+## Results
+
+
 
 ## Reflection
 
