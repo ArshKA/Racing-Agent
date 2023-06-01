@@ -10,7 +10,15 @@ Compressing the image observation into a 1D vector
   ### Image Procesing
   - Convert to grayscale
   - Remove gridding patterns
-  Image of processing
+  <br>
+
+  | Original Image | Processed Image |
+  | :------------: | :------------: |
+  | ![Original Image 1](media/original1.png) | ![Processed Image 1](media/processed1.png) |
+  | ![Original Image 2](media/original2.png) | ![Processed Image 2](media/processed2.png) |
+
+
+
 
   ### Stacking Frames
   - Stack 3 consecutive frames
