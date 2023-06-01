@@ -59,12 +59,31 @@ Producing the best agent through genetic selection
 
 ## Reporoduction values
 
+Rank   | Mutant Offspring
+| :------------: | :-------------: |
+|1      |        10        |
+|2      |        5         |
+|3      |        4         |
+|4      |        3         |
+|5      |        2         |
+|6      |        1         |
+|Base      |        5         |
+|Total Agents      |        30         |
+
+
+
 
 ## Training
 ![Max Reward Graph](media/reward_chart.png)
 (Max Reward)
 
 ## Results
+
+| <center>**0 Generations**</center> | <center>**20 Generations**</center> |
+| :------------: | :-------------: |
+| ![0 Generations](media/runs/test1.gif) | ![20 Generations](media/runs/test20.gif) |
+| <center>**60 Generations**</center> | <center>**110 Generations**</center> |
+| ![60 Generations](media/runs/test50.gif) | ![1300 Generations](media/runs/test130.gif) |
 
 
 
