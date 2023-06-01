@@ -41,7 +41,7 @@ Compressing the image observation into a 1D vector
 
   
 ## 3. Training
-- On Colab Tesla T4
+- Utilizing Google Colab's Tesla T4
 <br>
 
 ![Loss Graph](media/loss_chart.png)
