@@ -53,7 +53,7 @@ Producing the best agent through genetic selection
   - Impemented in vanilla NumPy for speed and flexibility
   - Can use pyTorch for larger models
 
-![Agent Model](media/agent_model.png)
+![Agent Model](media/.png)
 
 
 
