@@ -3,7 +3,8 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 
 # Encoding
 - Compressing the image observation into a 1D vector
-- Allows for faster training later and simplifies genetic model structure
+- Allows for faster training
+- Simplifies genetic model structure
 
 ## 1. Data Collection
 - Random actions
