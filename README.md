@@ -35,11 +35,8 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 ## 2. Model Architecture
 - Compresses 96x96x3 image input into vector of 32 values
 - 99.8843% reduction
-### Encoder
-![Encoder](media/.png)
-
-### Decoder
-![Decoder](media/.png)
+### Auto-encoder
+![Autoencoder](media/autoencoder.png)
 
   
 ## 3. Training
@@ -55,7 +52,7 @@ Producing the best agent through genetic selection
   - Impemented in vanilla NumPy for speed and flexibility
   - Can use pyTorch for larger models
 
-![Agent Model](media/.png)
+![Agent Model](media/agent_model.png)
 
 
 
