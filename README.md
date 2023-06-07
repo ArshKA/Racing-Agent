@@ -86,7 +86,13 @@ Rank   | Mutant Offspring
 
 
 
-## Reflection
+## Looking Back
+  Yes, it would be arrested for driving under influence. In every simulation I ran however, the car learned the same winding behavior indicating that it was not a case of a local optima but rather pocesses some strategic advantage. Of course it would require further testing to determine the exact cause. I believe that removing the tiling patterns on both the grass and the track elimated some signals which could indicate the velocity of the car. On a perfectly straight track, one frame is identical to the next, providing no information regarding the velocity of the agent. By twisting through the track, each frame is different from the previous providing enough info to determine the magnitude of direction of the velocity. Now, it is possible that the winding pattern was easier for the model to learn rather than more continous actions. Outputing "left" for 5 iterations and then "right" for the next 5 could be the result of large weight values coupled with the final sigmoid activation function.
+  
+  ### Potential Improvements:
+  - Maintain image complexity 
+  - Integrate the encoder into the agent model and make the weights mutable
+  - Implement mutations which change the architacture of the agent model rather than soley weight values (and record total reward/elapsed time to encourage smaller, faster models)
 
 
   
