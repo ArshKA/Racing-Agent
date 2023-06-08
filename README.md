@@ -35,12 +35,13 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 ## 2. Model Architecture
 - Compresses 96x96x3 image input into vector of 32 values
 - 99.8843% reduction
+- Later feed output of encoder into agent model
 ### Auto-encoder
 ![Autoencoder](media/autoencoder.png)
 
   
 ## 3. Training
-- Utilizing Google Colab's Tesla T4
+- Utilizing Google Colab's Tesla T4 GPU
 <br>
 
 ![Loss Graph](media/loss_chart.png)
@@ -49,14 +50,19 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 Producing the best agent through genetic selection
 
 ## Agent Model
-  - Impemented in vanilla NumPy for speed and flexibility
-  - Can use pyTorch for larger models
+  - Impemented in vanilla NumPy for speed and flexibility (reduces uneccesary overhead)
+  - Potentially replace with pyTorch for larger models 
+  - Shown below is the model archtecture for each individual
 
 ![Agent Model](media/agent_model.png)
 
 
 
-## Reporoduction values
+## Reporoduction
+  - The most successful agents of each generation make up the base population for the next generation
+  - Each one also produces x number of "mutated" offspring with random values added to each weight
+  - The table below indicates how many offspring each individual produces to maintain the population size of 30
+
 
 Rank   | Mutant Offspring
 | :------------: | :-------------: |
