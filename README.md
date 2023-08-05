@@ -1,5 +1,5 @@
 # Genetic-CarRacing-v2
-Solving Gym's car racing environment with genetic algorithms, neural networks, and auto-encoders.
+Solving Gym's car racing environment with genetic algorithms, neural networks, and auto-encoders. A slight overkill for my final AP CS project, but it was fun nonetheless
 
 # Encoding
 - Compressing the image observation into a 1D vector
