@@ -2,13 +2,13 @@
 Solving Gym's car racing environment with genetic algorithms, neural networks, and auto-encoders. A slight overkill for my final AP CS project, but it was fun nonetheless
 
 # Encoding
-- Compressing the image observation into a 1D vector
-- Allows for faster evolutionary training 
-- Simplifies genetic model structure
+- Compress the 96x96 RGB image into a 1D vector
+- Quicker evolutionary training 
+- Simplifies genetic model architecture
 
 ## 1. Data Collection
-- Random actions
-- Save every nth image
+- Random actions to gather frames
+- Save every Nth image
   ### Image Procesing
   - Convert to grayscale
   - Remove grid patterns to reduce complexity
