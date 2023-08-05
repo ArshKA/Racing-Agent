@@ -24,7 +24,7 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 
   ### Stacking Frames
   - Stack 3 consecutive frames
-  - Determine velocity & acceleration
+  - Contains information to deduce velocity & acceleration
   
   <br>
   
@@ -35,7 +35,7 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 ## 2. Model Architecture
 - Compresses 96x96x3 image input into vector of 32 values
 - 99.8843% reduction
-- Later feed output of encoder into agent model
+- Feed output of encoder to input of evolutionary model
 ### Auto-encoder
 ![Autoencoder](media/autoencoder.png)
 
