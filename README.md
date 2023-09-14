@@ -3,7 +3,7 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 
 # Encoding
 - Compress the 96x96 RGB image into a 1D vector
-- Quicker evolutionary training 
+- Speeds up evolutionary training 
 - Simplifies genetic model architecture
 
 ## 1. Data Collection
