@@ -30,7 +30,7 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
   
   | Slow | Fast |
   | :----------------: | :----------------: |
-  | ![Slow Stacked](media/slow_stacked.png) <br>Thin outline indicates little difference <br> between frames| ![Fast Stacked](media/fast_stacked.png) <br>Wide outline indicates larger difference <br> Vehicle has greater velocity magnitude|
+  | ![Slow Stacked](media/slow_stacked.png) <br>Narrow outline indicates minimal <br> difference between frames| ![Fast Stacked](media/fast_stacked.png) <br>Broad overlay difference indicates <br> vehicle possesses greater speed|
 
 ## 2. Model Architecture
 - Compresses 96x96x3 image input into vector of 32 values
