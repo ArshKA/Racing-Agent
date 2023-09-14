@@ -35,7 +35,7 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 ## 2. Model Architecture
 - Compresses 96x96x3 image input into vector of 32 values
 - 99.8843% reduction
-- Feed output of encoder to input of evolutionary model
+- Fuse output of encoder with head of evolutionary model
 ### Auto-encoder
 ![Autoencoder](media/autoencoder.png)
 
