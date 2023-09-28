@@ -37,6 +37,7 @@ Solving Gym's car racing environment with genetic algorithms, neural networks, a
 - 99.8843% reduction
 - Fuse output of encoder with head of evolutionary model
 ### Auto-encoder
+*Final result is Decoded, intermediate tensor of 32 values is Encoded
 ![Autoencoder](media/autoencoder.png)
 
   
