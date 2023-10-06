@@ -59,7 +59,7 @@ Producing the best agent through genetic selection
 
 
 
-## Reporoduction
+## Reproduction
   - The most successful agents of each generation make up the base population for the next generation
   - Each one also produces x number of "mutated" offspring with random values added to each weight
   - The table below indicates how many offspring each individual produces to maintain the population size of 30
