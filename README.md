@@ -94,7 +94,7 @@ Rank   | Mutant Offspring
 
 
 ## Looking Back
-Unfortunately, this agent would be pulled over for DUI within two minutes of hitting the road. While it is able to succesfully hit nearly every tile on the track, it's speed could clearly be improved by taking the shortest path between 2 points, not the longest. This behavior likely provides some sort of strategic advantage or is a local optima for the agent's rewards. 
+Unfortunately, this agent would be pulled over for DUI within two minutes of hitting the road. While it is able to successfully traverse nearly every tile on the track, it's speed could clearly be improved by taking the shortest path between 2 points, not the longest. This behavior likely provides some sort of strategic advantage or is a local optima for the agent's rewards. 
 One explanation is the winding route provides the ability to estimate it's own velocity. On a perfectly straight track, each frame is identical to the next, providing no information regarding the velocity of the agent. By twisting through the track, the overlaying of images produces varience to determine the magnitude of direction of the car.
   
   ### Potential Improvements:
