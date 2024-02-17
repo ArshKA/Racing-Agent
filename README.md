@@ -100,7 +100,8 @@ One explanation is the winding route provides the ability to estimate it's own v
   ### Potential Improvements:
   - Maintain image complexity 
   - Integrate the encoder into the agent model and make the weights mutable
-  - Implement mutations which change the architacture of the agent model rather than soley weight values (and record total reward/elapsed time to encourage smaller, faster models)
+  - Implement mutations which change the architacture of the agent model along with weights
+  - End generation with total elapsed time instead of fixed number of steps to encourage smaller, faster models
 
 
   
