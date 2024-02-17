@@ -94,8 +94,8 @@ Rank   | Mutant Offspring
 
 
 ## Looking Back
-Unfortunately, this agent would be pulled over for DUI within two minutes of being deployed. While it is able to succesfully touch every tile on the track, it's speed could clearly be improved by taking the shortest path between 2 points, not the longest one. This behavior likely provides some sort of strategic advantage or is a local optima for the agent's rewards. One explanation is the winding route provides the car with the ability to estimate it's own velocity. 
-  Yes I know, this agent would be pulled over for DUI. In every simulation, the car learned the same winding behavior indicating that this behavior is not a local optima but rather provides some sort of strategic advantage. Of course it, with the nature of black box nueral networks, would require further testing to determine the exact cause. I'm under the impression that removing the tiling patterns on both the grass and the track elimated some indicators to determine the velocity of the car.  On a perfectly straight track, each frame is identical to the next, providing no information regarding the velocity of the agent. By twisting through the track, the overlaying of images produces varience to determine the magnitude of direction of the car.
+Unfortunately, this agent would be pulled over for DUI within two minutes of hitting the road. While it is able to succesfully touch every tile on the track, it's speed could clearly be improved by taking the shortest path between 2 points, not the longest. This behavior likely provides some sort of strategic advantage or is a local optima for the agent's rewards. 
+One explanation is the winding route provides the ability to estimate it's own velocity. On a perfectly straight track, each frame is identical to the next, providing no information regarding the velocity of the agent. By twisting through the track, the overlaying of images produces varience to determine the magnitude of direction of the car.
   
   ### Potential Improvements:
   - Maintain image complexity 
